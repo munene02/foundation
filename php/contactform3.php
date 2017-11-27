@@ -13,20 +13,24 @@ $error_message = "Please complete the form first";
 $rnd=$_POST['rnd'];
 $name=$_POST['name'];
 $email=$_POST['email'];
-$subject=$_POST['subject'];
+$mobile=$_POST['mobile'];
+$company=$_POST['company'];
 $body=$_POST['body'];
 
   
-if(!isset($rnd) || !isset($name) || !isset($email) || !isset($subject) || !isset($body)) {
+if(!isset($rnd) || !isset($name) || !isset($email) || !isset($mobile) || !isset($body)) {
 	echo $error_message;
     die();
 }
 
 
-$subject = "First";
+$subject = "I want to Volunteer";
 $email_from = $email;
 
-$email_message = "Message submitted by '".stripslashes($name)."', email:".$email_from;
+$email_message = 'Message submitted by '.stripslashes($name).
+					', email:'.$email_from. '  '."\n".
+					', Mobile:'.$mobile.'  '."\n".
+					', Company:'.$company.'  '."\n";
 $email_message .=" on ".date("d/m/Y")."\n\n";
 $email_message .= stripslashes($body);
 $email_message .="\n\n";

@@ -77,8 +77,8 @@
                                         <div class="column mcb-column one column_column">
                                             <div class="column_attr" style="text-align: justify;">
                                                 <p>One smalll act of kindness can change someone's life forever. Enter your details below and we will get back to you as soon as possible.</p>
-                                                <div id="contactWrapper2">
-                                                    <form id="contactform2">
+                                                <div id="contactWrapper">
+                                                    <form id="contactform">
                                                         <div class="column one-second">
                                                             <input placeholder="Your name" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
                                                         </div>
@@ -92,13 +92,13 @@
                                                             <input placeholder="Company/Individual" type="text" name="company" id="company" size="40" aria-required="true" aria-invalid="false" />
                                                         </div>
                                                         <div class="column one">
-                                                            <textarea placeholder="A bit about yourself" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
+                                                            <textarea placeholder="Message" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
                                                         </div>
-                                                        <div class="column one" style="font-weight: bold;">
-                                                            <input type="button" value="SUBMIT DETAILS" id="submit" onClick="return check_values2();">
+                                                        <div class="column one">
+                                                            <input type="button" value="Send A Message" id="submit" onClick="return check_values3();">
                                                         </div>
                                                     </form>
-                                                </div>    
+                                                </div>   
                                             </div>
                                         </div>
 

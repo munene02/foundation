@@ -46,6 +46,27 @@ function sendRequest() {
 	jQuery('#contactWrapper').append('<div class="success"><h4>Email Successfully Sent!</h4><br><p>Thank you for using our contact form <strong>'+decodeURIComponent(name)+'</strong>! Your email was successfully sent and we&#39;ll be in touch with you soon.</p></div>');
 	}
 }
+function sendRequest3() {
+	
+	var rnd = Math.random();
+	var name = escape(document.getElementById("name").value);
+	var email = escape(document.getElementById("email").value);
+	var mobile = escape(document.getElementById("mobile").value);
+	var company = escape(document.getElementById("company").value);
+	var body = document.getElementById("body").value;
+
+	try{
+    http.open('POST',  'php/contactform3.php');
+    http.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    http.onreadystatechange = handleResponse;
+		http.send('name='+name+'&email='+email+'&mobile='+mobile+'&company='+company+'&body='+body+'&rnd='+rnd);
+	}
+	catch(e){}
+	finally{
+	jQuery('#contactform').slideUp("slow").hide();
+	jQuery('#contactWrapper').append('<div class="success"><h4>Details Successfully Sent!</h4><br><p>Thank you for volunteering, we will get back to you as soon as possible. Your email was successfully sent and we&#39;ll be in touch with you soon.</p></div>');
+	}
+}
 
 function sendRequest2() {
 	
@@ -271,6 +292,111 @@ function check_values() {
 			document.getElementById("submit").disabled=true;
 			document.getElementById("submit").value='Please Wait..';
 			sendRequest();
+	}
+}
+function check_values3() {
+	//Form
+	var valid = '';
+
+	
+	var $j = jQuery.noConflict();
+	
+	var name = '';
+	var email = '';
+	var mobile = '';
+	var company = '';
+	var body = '';
+	
+	if(typeof $j('#contactform #name').val() != "undefined" )
+	{
+	 name = document.getElementById("name").value;
+	}
+	if(typeof $j('#contactform #email').val() != "undefined" )
+	{
+	 email = document.getElementById("email").value;
+	}
+	if(typeof $j('#contactform #mobile').val() != "undefined" )
+	{
+	 mobile = document.getElementById("mobile").value;
+	}
+	if(typeof $j('#contactform #company').val() != "undefined" )
+	{
+	 company = document.getElementById("company").value;
+	}
+	if(typeof $j('#contactform #body').val() != "undefined" )
+	{
+	 body = document.getElementById("body").value;
+	}
+
+	
+	var errors=0;
+     if($j('#contactform #name').val()!=undefined)
+	 if($j('#contactform #name').val()=='') {
+	 	var hasClass=$j('#contactform #name').parent().find(".error").hasClass("error");
+	 	if(!hasClass)
+	 	    $j('#contactform #name').parent().append('<label for="contactname" generated="true" class="error">Please enter your name</label>');
+			$j('#contactform #name').focus();
+			//return false;
+			errors++;
+		}
+		else
+		$j('#contactform #name').parent().find(".error").remove();
+		
+		if($j('#contactform #email').val()!=undefined)
+		if(validate_email($j('#contactform #email').val())==false ) {
+		var hasClass=$j('#contactform #email').parent().find(".error").hasClass("error");
+	 	if(!hasClass)
+	 	    $j('#contactform #email').parent().append('<label for="contactname" generated="true" class="error">Please enter a valid email address</label>');	
+			$j('#contactform #email').focus();
+			//return false;
+			errors++;
+		}
+		else
+		$j('#contactform #email').parent().find(".error").remove();
+		
+		
+		if($j('#contactform2 #mobile').val()!=undefined)
+	 	if($j('#contactform2 #mobile').val()=='') {
+	 	var hasClass=$j('#contactform2 #mobile').parent().find(".error").hasClass("error");
+	 	if(!hasClass)
+	 	    $j('#contactform2 #mobile').parent().append('<label for="contactmobile" generated="true" class="error">Please enter your phone number</label>');
+			$j('#contactform2 #mobile').focus();
+			//return false;
+			errors++;
+		}
+		else
+		$j('#contactform2 #mobile').parent().find(".error").remove();
+
+		if($j('#contactform2 #company').val()!=undefined)
+	 	if($j('#contactform2 #company').val()=='') {
+	 	var hasClass=$j('#contactform2 #company').parent().find(".error").hasClass("error");
+	 	if(!hasClass)
+	 	    $j('#contactform2 #company').parent().append('<label for="contactcompany" generated="true" class="error">Please enter if you are volunteering as a company or individual.</label>');
+			$j('#contactform2 #company').focus();
+			//return false;
+			errors++;
+		}
+		else
+		$j('#contactform2 #company').parent().find(".error").remove();
+		
+		if($j('#contactform #body').val()!=undefined)
+		if($j('#contactform #body').val()==''){
+		var hasClass=$j('#contactform #body').parent().find(".error").hasClass("error");
+	 	if(!hasClass)
+	 	    $j('#contactform #body').parent().append('<label for="contactname" generated="true" class="error">You need to enter a message!</label>');	
+			$j('#contactform #body').focus();
+			//return false;
+			errors++;
+		}
+		else
+		$j('#contactform #body').parent().find(".error").remove();
+		
+	
+
+	if(errors==0) {
+			document.getElementById("submit").disabled=true;
+			document.getElementById("submit").value='Please Wait..';
+			sendRequest3();
 	}
 }
 function check_values2() {
