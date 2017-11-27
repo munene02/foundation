@@ -282,7 +282,8 @@ function check_values2() {
 	
 	var name = '';
 	var email = '';
-	var subject = '';
+	var mobile = '';
+	var company = '';
 	var body = '';
 	
 	if(typeof $j('#contactform2 #name').val() != "undefined" )
@@ -295,11 +296,11 @@ function check_values2() {
 	}
 	if(typeof $j('#contactform2 #mobile').val() != "undefined" )
 	{
-	 name = document.getElementById("mobile").value;
+	 mobile = document.getElementById("mobile").value;
 	}
 	if(typeof $j('#contactform2 #company').val() != "undefined" )
 	{
-	 name = document.getElementById("company").value;
+	 company = document.getElementById("company").value;
 	}
 	if(typeof $j('#contactform2 #body').val() != "undefined" )
 	{
