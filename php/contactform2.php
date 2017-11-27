@@ -24,7 +24,7 @@ if(!isset($rnd) || !isset($name) || !isset($email) || !isset($mobile) || !isset(
 }
 
 
-$subject = stripslashes($subject);
+$subject = "I would like to Volunteer";
 $email_from = $email;
 
 $email_message = "Message submitted by '".stripslashes($name)."', Email:".$email_from."', Phone Number:".$mobile."', Company/Individual:".$company;
