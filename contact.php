@@ -140,13 +140,13 @@
     <script src="js/animations/animations.js"></script>
     <script src="js/scripts.js"></script>
 
-    
-    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABFo4IYeIF6B8WAg0SK-FfQGW6m9IF15A=initMap"
-  type="text/javascript"></script> -->
-  <script src="http://maps.google.com/maps/api/js?sensor=false&ver=5.9"></script>
+    <!-- AIzaSyCdtRoN0KPpOgj9haRJLu0fklERCdnD0X0 -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdtRoN0KPpOgj9haRJLu0fklERCdnD0X0=initMap"
+  type="text/javascript"></script>
+  <!-- <script src="http://maps.google.com/maps/api/js?sensor=false&ver=5.9"></script> -->
     <script src="js/email.js"></script>
 
-    <script>
+    <script> 
         function google_maps_56b4be027c3b6() {
             var latlng = new google.maps.LatLng(-1.306484, 36.858156);
             var draggable = true;
