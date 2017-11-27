@@ -141,7 +141,7 @@
     <script src="js/scripts.js"></script>
 
     <!-- AIzaSyCdtRoN0KPpOgj9haRJLu0fklERCdnD0X0 -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdtRoN0KPpOgj9haRJLu0fklERCdnD0X0=initMap"
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdtRoN0KPpOgj9haRJLu0fklERCdnD0X0&callback=initMap"
   type="text/javascript"></script>
   <!-- <script src="http://maps.google.com/maps/api/js?sensor=false&ver=5.9"></script> -->
     <script src="js/email.js"></script>
