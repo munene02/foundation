@@ -6,7 +6,7 @@ error_reporting(0);
   
  // configuration
  
-$email_it_to = "info@theimpactfoundation.co.ke";
+$email_it_to = "munene02@gmail.com";
 
 $error_message = "Please complete the form first";
 
