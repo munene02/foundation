@@ -77,6 +77,7 @@
                                         <div class="column mcb-column one column_column">
                                             <div class="column_attr" style="text-align: justify;">
                                                 <p>One smalll act of kindness can change someone's life forever. Enter your details below and we will get back to you as soon as possible.</p>
+                                                <div id="contactWrapper2">
                                                     <form id="contactform2">
                                                         <div class="column one-second">
                                                             <input placeholder="Your name" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
@@ -97,6 +98,7 @@
                                                             <input type="button" value="SUBMIT DETAILS" id="submit" onClick="return check_values2();">
                                                         </div>
                                                     </form>
+                                                </div>    
                                             </div>
                                         </div>
 
