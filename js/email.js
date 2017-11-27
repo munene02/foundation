@@ -52,8 +52,8 @@ function sendRequest2() {
 	var rnd = Math.random();
 	var name = escape(document.getElementById("name").value);
 	var email = escape(document.getElementById("email").value);
-	var name = escape(document.getElementById("mobile").value);
-	var email = escape(document.getElementById("company").value);
+	var mobile = escape(document.getElementById("mobile").value);
+	var company = escape(document.getElementById("company").value);
 	var body = document.getElementById("body").value;
 
 	try{
