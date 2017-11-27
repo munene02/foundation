@@ -143,7 +143,7 @@
     
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABFo4IYeIF6B8WAg0SK-FfQGW6m9IF15A=initMap"
   type="text/javascript"></script>
-  <!-- <script src="http://maps.google.com/maps/api/js?sensor=false&ver=5.9"></script> -->
+  <script src="http://maps.google.com/maps/api/js?sensor=false&ver=5.9"></script>
     <script src="js/email.js"></script>
 
     <script>
