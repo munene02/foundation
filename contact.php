@@ -143,11 +143,11 @@
     
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABFo4IYeIF6B8WAg0SK-FfQGW6m9IF15A=initMap"
   type="text/javascript"></script>
-  <script src="http://maps.google.com/maps/api/js?sensor=false&ver=5.9"></script>
+  <!-- <script src="http://maps.google.com/maps/api/js?sensor=false&ver=5.9"></script> -->
     <script src="js/email.js"></script>
 
     <script>
-        function google_maps_56b4be027c3b6() {AIzaSyABFo4IYeIF6B8WAg0SK-FfQGW6m9IF15A
+        function google_maps_56b4be027c3b6() {
             var latlng = new google.maps.LatLng(-1.306484, 36.858156);
             var draggable = true;
             var myOptions = {
