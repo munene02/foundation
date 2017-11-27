@@ -6,7 +6,7 @@ error_reporting(0);
   
  // configuration
  
-$email_it_to = "theimpacfoundation.co.ke";
+$email_it_to = "theimpactfoundation.co.ke";
 
 $error_message = "Please complete the form first";
 
