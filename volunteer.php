@@ -89,7 +89,7 @@
                                                             <input placeholder="Phone Number" type="text" name="mobile" id="mobile" size="40" aria-required="true" aria-invalid="false" />
                                                         </div>
                                                         <div class="column one-second">
-                                                            <input placeholder="Company name" type="text" name="company" id="company" size="40" aria-required="false" aria-invalid="false" />
+                                                            <input placeholder="Company/Individual" type="text" name="company" id="company" size="40" aria-required="true" aria-invalid="false" />
                                                         </div>
                                                         <div class="column one">
                                                             <textarea placeholder="A bit about yourself" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
