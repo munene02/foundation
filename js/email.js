@@ -65,7 +65,7 @@ function sendRequest2() {
 	catch(e){}
 	finally{
 	jQuery('#contactform2').slideUp("slow").hide();
-	jQuery('#contactWrapper2').append('<div class="success"><h4>Details Successfully Sent!</h4><br><p>Thank you for volunteering, we will get back to you as soon as possible. <strong>'+decodeURIComponent(name)+'</strong>! Your email was successfully sent and we&#39;ll be in touch with you soon.</p></div>');
+	jQuery('#contactWrapper2').append('<div class="success"><h4>Details Successfully Sent!</h4><br><p>Thank you for volunteering, we will get back to you as soon as possible. Your email was successfully sent and we&#39;ll be in touch with you soon.</p></div>');
 	}
 }
 function sendRequest_booking() {
