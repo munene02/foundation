@@ -74,11 +74,29 @@
                                                 &nbsp;
                                             </div>
                                         </div>
-                                        <div class="column mcb-column three-fourth column_column">
+                                        <div class="column mcb-column one column_column">
                                             <div class="column_attr" style="text-align: justify;">
-                                                <p>
-                                                   
-                                                </p>
+                                                <p>One smalll act of kindness can change someone's life forever. Enter your details below and we will get back to you as soon as possible.</p>
+                                                    <form id="contactform2">
+                                                        <div class="column one-second">
+                                                            <input placeholder="Your name" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
+                                                        </div>
+                                                        <div class="column one-second">
+                                                            <input placeholder="Your e-mail" type="email" name="email" id="email" size="40" aria-required="true" aria-invalid="false" />
+                                                        </div>
+                                                        <div class="column one-second">
+                                                            <input placeholder="Phone Number" type="text" name="mobile" id="mobile" size="40" aria-required="true" aria-invalid="false" />
+                                                        </div>
+                                                        <div class="column one-second">
+                                                            <input placeholder="Company/Individual" type="text" name="company" id="company" size="40" aria-required="true" aria-invalid="false" />
+                                                        </div>
+                                                        <div class="column one">
+                                                            <textarea placeholder="A bit about yourself" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
+                                                        </div>
+                                                        <div class="column one" style="font-weight: bold;">
+                                                            <input type="button" value="SUBMIT DETAILS" id="submit" onClick="return check_values2();">
+                                                        </div>
+                                                    </form>
                                             </div>
                                         </div>
 
@@ -103,6 +121,7 @@
     <script src="js/jquery.jplayer.min.js"></script>
     <script src="js/animations/animations.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/email.js"></script>
 
     <script id="mfn-dnmc-retina-js">
         jQuery(window).load(function() {

@@ -10883,6 +10883,12 @@ div.dark_rounded #pp_full_res .pp_inline, div.dark_square #pp_full_res .pp_inlin
 #contactform .column {
 	margin-bottom: 10px;
 }
+#contactform2 .column input[type="text"], #contactform2 .column input[type="email"] {
+	width: 100%;
+}
+#contactform2 .column {
+	margin-bottom: 10px;
+}
 .flv_disp_none {
 	display: none !important;
 }
