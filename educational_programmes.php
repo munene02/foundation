@@ -10,7 +10,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>Educational Programmes | The Impact Foundation</title>
+    <title>Education | The Impact Foundation</title>
     <meta name="description" content="The Impact Foundation is a Kenyan registered Non-Governmental Organization (NGO) that provides socio-economic support services to the disadvantaged people of Kenya the key one being improvement of education of bright primary school pupils from poor background who are unable to further their education to secondary level; support of basic community health services; promotion of child development programs; support of youth and women empowerment programs; protection of environment; assist in ensuring food security; and training of the vulnerable groups on life sustaining skills. ">
 
     <meta name="author" content="Evoke Media Ltd">
@@ -63,7 +63,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_column">
                                             <div class="column_attr align_center" style=" padding:0 8%;">
-                                                <h2>Educational Programmes</h2>
+                                                <h2>Education </h2>
                                                 <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
                                                     <div class="image_wrapper"><img class="scale-with-grid" src="images/home_charity2_sep1.png" alt="" width="216" height="17" />
                                                     </div>

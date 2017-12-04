@@ -21,10 +21,21 @@
                                     <a href="objectives.php"><span>Objectives</span></a>
                                 </li>
                                 <li <?php if($page==4){echo 'class="current_page_item"';}?>>
-                                    <a href="target-community.php"><span>Target Commuinty</span></a>
+                                    <a href="target-community.php"><span>Target Community</span></a>
                                 </li>
                                 <li <?php if($page==5){echo 'class="current_page_item"';}?>>
-                                    <a href="programmes.php"><span>Programmes</span></a>
+                                    <a href="#"><span>Programmes</span></a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="educational_programmes.php"><span>
+                                            Education</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="women_empowerment_programmes.php"><span>
+                                                Women Empowerment
+                                            </span></a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li <?php if($page==6){echo 'class="current_page_item"';}?>>
                                     <a href="gallery.php"><span>Gallery</span></a>
@@ -32,6 +43,7 @@
                                 <li <?php if($page==7){echo 'class="current_page_item"';}?>>
                                     <a href="contact.php"><span>Contact</span></a>
                                 </li>
+                                
                             </ul>
                         </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
                     </div>

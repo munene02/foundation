@@ -113,7 +113,7 @@
                                                     <strong style="color:#2ab574;">Mobile: <br/> </strong> +254 733 585 334
                                                 </p>
                                                 <p class="big">
-                                                    <strong style="color:#2ab574;">Location: <br/> </strong> Kasisi Building , Lokitaung Road of Likoni road.
+                                                    <strong style="color:#2ab574;">Location: <br/> </strong> Kasisi Building , Lokitaung Road off Likoni road.
                                                 </p>
                                                 
                                             </div>

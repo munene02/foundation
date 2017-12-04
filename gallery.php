@@ -79,7 +79,7 @@
                                                     <div class="column_attr">
                                                         
                                                         <p style="text-align: justify;padding: 0 40px 10px 40px;">
-                                                            Campaign against Jigger infestation at Huluwinu  Primary School co-sponsored by The  Impact Foundation and the Anglican Church of Kenya, Maseno West Diocese in 2017.
+                                                            Campaign against Jigger infestation at Huluwinu  Primary School co-sponsored by The  Impact Foundation and ACK Regea Parish, Maseno West Diocese in 2017.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -135,7 +135,7 @@
                                                               <div class="image_wrapper">
                                                                   <a href="#"><div class="mask"></div><img width="576"  src="images/pro5-small.jpg" class="scale-with-grid wp-post-image" alt="portfolio_5" itemprop="image"></a>
                                                                   <div class="image_links">
-                                                                      <a href="images/pro.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a>
+                                                                      <a href="images/pro5.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a>
                                                                   </div>
                                                               </div>
                                                           </div>

@@ -67,7 +67,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_column  column-margin-30px">
                                             <div class="column_attr">
-                                                <h3 style="">Mr Adams Omondi</h3>
+                                                <h3 style="">Mr. Adams Omondi Kisoka</h3>
                                                 <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
                                                     <div class="image_wrapper"><img class="scale-with-grid" src="images/home_charity2_sep5.png" alt="" width="217" height="16" /> </div>
                                                 </div>
@@ -103,7 +103,7 @@ Adams is the chair of the Board of The Impact Foundation and is responsible for 
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_column  column-margin-30px">
                                             <div class="column_attr" style=" padding:15px 0 0 0;">
-                                                <h3 style="">Mrs Nelly Omondi</h3>
+                                                <h3 style="">Mrs. Nelly Aloo Omondi</h3>
                                                 <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
                                                     <div class="image_wrapper"><img class="scale-with-grid" src="images/home_charity2_sep5.png" alt="" width="217" height="16" /> </div>
                                                 </div>
@@ -113,7 +113,7 @@ Adams is the chair of the Board of The Impact Foundation and is responsible for 
                                             <div class="column_attr">
                                                 <p style="padding-top:25px;text-align: justify;">
                                                     Nelly Omondi is a teacher by profession but has since 2004 together with her co-founder been involved in the management of their businesses as pointed out above. She is the Managing Director of Impact Chemicals Limited and largely manages the marketing and administrative functions while Adams along with other professionals are involved in production and research activities.<br><br>
-Nelly is a member of The Organization of Women in International Trade (OWIT) from where she has gained useful links in business networking. As a result of this membership, she was in early 2015 selected to attend the Fortune/US State Department Global Women’s Mentorship Program and was attached to Dow Chemicals in Michigan, Washington DC, New York and Indiana states in the US. This was a real eye opener for her given the large number of participants and practical involvement in various case studies. It is expected that Nelly will apply her good experience in networking in the management of The Impact Foundation especially in the identification of potential financial supporters.
+Nelly is a member of The Organization of Women in International Trade (OWIT) from where she has gained useful links in business networking. In early 2015 Nelly was selected to attend the Fortune/US State Department Global Women’s Mentorship Program and was attached to Dow Chemicals in Michigan, Washington DC, New York and Indiana states in the US. This was a real eye opener for her given the large number of participants and practical involvement in various case studies. It is expected that Nelly will apply her good experience in networking in the management of The Impact Foundation especially in the identification of potential financial supporters.
 
                                                 </p>
                                             </div>

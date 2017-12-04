@@ -10,7 +10,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>Target Community | The Impact Foundation</title>
+    <title>Education | The Impact Foundation</title>
     <meta name="description" content="The Impact Foundation is a Kenyan registered Non-Governmental Organization (NGO) that provides socio-economic support services to the disadvantaged people of Kenya the key one being improvement of education of bright primary school pupils from poor background who are unable to further their education to secondary level; support of basic community health services; promotion of child development programs; support of youth and women empowerment programs; protection of environment; assist in ensuring food security; and training of the vulnerable groups on life sustaining skills. ">
 
     <meta name="author" content="Evoke Media Ltd">
@@ -35,7 +35,7 @@
 
     <div id="Wrapper">
         <div id="Header_wrapper">
-            <?php $page=4; include 'header.php';?>
+            <?php $page=5; include 'header.php';?>
         </div>
         <div id="Content">
             <div class="content_wrapper clearfix">
@@ -48,7 +48,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_image ">
                                             <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid" src="images/slider7.jpg" alt="" width="1920" height="590" />
+                                                <div class="image_wrapper"><img class="scale-with-grid" src="images/woman.jpg" alt="" width="1920" height="590" />
                                                 </div>
                                             </div>
                                         </div>
@@ -56,64 +56,61 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="section mcb-section  section-shadow " style="padding-top:80px; padding-bottom:40px; ">
                             <div class="section_wrapper mcb-section-inner">
                                 <div class="wrap mcb-wrap one  valign-top clearfix">
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_column">
                                             <div class="column_attr align_center" style=" padding:0 8%;">
-                                                <h2>Target Community</h2>
+                                                <h2>Women Empowerment</h2>
                                                 <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
                                                     <div class="image_wrapper"><img class="scale-with-grid" src="images/home_charity2_sep1.png" alt="" width="216" height="17" />
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                            
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr">
-                                                <p>The founders’ desire is to initially concentrate the Foundation’s operational area in their home Sub-County of Khwisero and Gem which are among the Parliamentary constituencies in the greater Nyanza and Western Region. These two sub-counties share facilities like schools, markets and churches.</p>
-                                                <p>
-                                                   
-The reason for selection of these areas is that the founders would like to give back to their immediate community the benefits of their success in education and business before expanding the support to other nearby Sub-Counties where the demand for such assistance is equally high. 
 
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column" style="padding-top: 20px;">
-                                            <div class="column_attr">
-                                                <h3>Profile of Khwisero and Gem Sub-Counties</h3>
-                                                <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
-                                                    <div class="image_wrapper"><img class="scale-with-grid" src="images/home_charity2_sep5.png" alt="" width="216" height="17" />
+                                        <div class="section mcb-section" style="padding-top:0px; padding-bottom:20px; ">
+                                            <div class="section_wrapper mcb-section-inner">
+                                            
+                                                <div class="wrap mcb-wrap two-third  column-margin-10px valign-top clearfix">
+                                                    <div class="mcb-wrap-inner">
+                                                    
+                                                        <div class="column mcb-column one column_column">
+                                                            <div class="column_attr">
+                                                                
+                                                                <p style="text-align: justify;">
+                                                                    “In retrospect, our experience empowering both genders showed that when men are empowered, they marry in more wives but when women are empowered, they send their children to schools and pay their school fees up to completion. That helps society achieve more meaningful development and spur innovation for the overall local economy to grow faster and sustainably. Hence women empowerment will continue to be among our highest ranking priorities” - Founders of The Impact Foundation.
+                                                                </p>
+                                                                <br>
+                                                                <h3>Our Approach</h3>
+                                                                <p>
+                                                                    Providing training to rural women focusing on starting and growing small manufacturing enterprises for common household items.
+Offering training on business skills and simple transactional documentation to enable women run successful businesses.
+
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="column mcb-column one column_divider ">
+                                                            <hr class="no_line" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wrap mcb-wrap one-third  valign-top clearfix">
+                                                    <div class="mcb-wrap-inner">
+                                                        <div class="column mcb-column one column_image ">
+                                                            <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                                <div class="image_wrapper"><img class="scale-with-grid" src="images/empower.jpg" alt="" width="450"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="column mcb-column one-second column_column">
-                                            <div class="column_attr">
-                                                
-                                                
-                                                <p>Gem is a Sub-County of Siaya County and is a Parliamentary Constituency represented in the Kenyan National Assembly by an elected representative. It is subdivided into five Wards each having an elected Ward Representative at the County Assembly in Siaya town namely Wagai, South Gem, North Gem, East Gem and Central Gem. The Sub-County covers an area of 353.2 sq. km and a population of 160,675 inhabitants. There are a total of 127 schools 97 being primary schools and 30 secondary schools.
-                                                    <br/><br/>
-                                                    Khwisero Sub-County on the other hand covers an area of 145.6 sq. km with a population of 102,635 inhabitants. It comprises 4 elective wards of Kisa North, Kisa East, Kisa West, Kisa Central. There are a total of 61 primary and 10 Secondary schools respectively.<br/>
-                                                    <br/>
-The economy of the two Sub-Counties is characterized by subsistence agriculture where crops cultivated are inclusive of maize, sorghum, cassava, beans, horticultural crops, sweet potatoes and to a lesser extent sugarcane for mill white sugar. Commercial farming activities in the Sub-County is minimal given the lack of industrial crops like coffee and tea but some farmers keep dairy cattle for milk production. Manufacturing activities are also minimal since most of the manufactured products are sourced from Kisumu city, a distance of approximately 60 kilometres away. Lack of industries and minimal commercial farming has negatively affected the socio-economic lives of the residents of the Sub-Counties resulting in widespread poverty among the residents.
 
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one-second column_column">
-                                            <div class="column_attr">
-
-                                            
-
-                                                <p>
-                                                   HIV/Aids prevalence in Khwisero and Gem Sub-counties is also a hindrance to its economic development since a large number of those dying of the disease are young people who leave behind orphans under the care of old grandparents or guardians with no reliable source of income for survival. Under these circumstances, financing of Secondary Education for pupils who have passed the KCPE exam is a real challenge for such families hence, the large number of primary school level drop outs. Supply of adequate food is also a big problem for these poor families – a situation which adversely affects the performance of pupils in primary schools since a hungry pupil is likely not to have undivided attention in class while some miss school to look for menial jobs for survival.<br/><br/>
-The socio-economic environment of Khwisero and Gem Sub-Counties as explained above is one characterized by poverty among its residents and a high prevalence of HIV/Aids. Carrying out of meaningful community development is therefore a big challenge for the leaders given the limited budgetary allocation from the National and County governments. Support from non- governmental organizations like The Impact Foundation will therefore go a long way in enhancing the government effort in the provision of vital services like improvement of educational standards. 
-
-                                                </p>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
